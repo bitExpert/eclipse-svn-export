@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension
+		point="org.eclipse.ui.exportWizards">
+		<category
+			name="Subversion Export"
+			id="de.bitexpert.eclipse.svn.svnexport.ui.wizards.SubversionExport">
+			</category>
+			<wizard
+				category="org.eclipse.team.ui.exportWizards"
+				class="de.bitexpert.eclipse.svn.svnexport.ui.wizards.SubversionExportWizard"
+				icon="./icons/export.gif"
+				id="de.bitexpert.eclipse.svn.svnexport.ui.wizards.SubversionExport"
+				name="Subversion Export by Revision">
+					<description>
+						Export SVN resources by their revisions.
+					</description>
+					<selection class="org.eclipse.core.resources.IProject"/>
+			</wizard>
+	</extension>
+</plugin>
