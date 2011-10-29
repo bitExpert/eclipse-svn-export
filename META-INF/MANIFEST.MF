@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: SubversionExport Plug-in
-Bundle-SymbolicName: de.bitExpert.eclipse.svn.svnexport;singleton:=true
-Bundle-Version: 0.1.2
+Bundle-SymbolicName: de.bitexpert.eclipse.svn.svnexport;singleton:=true
+Bundle-Version: 0.1.3
 Bundle-Activator: de.bitexpert.eclipse.svn.svnexport.Activator
 Bundle-Vendor: bitExpert AG
 Require-Bundle: org.eclipse.ui,
