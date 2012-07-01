@@ -27,7 +27,7 @@ import org.eclipse.ui.IWorkbench;
 /**
  * Main wizard class to control the wizard`s workflow.
  *
- * @author	Stephan Hochdoerfer <S.Hochdoerfer@bitExpert.de>
+ * @author	Stephan Hochdörfer <S.Hochdoerfer@bitExpert.de>
  */
 
 
